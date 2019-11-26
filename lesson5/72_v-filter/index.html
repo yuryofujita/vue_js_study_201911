@@ -1,0 +1,21 @@
+<style type="text/css">
+[v-cloak] {
+    display:none;
+}
+</style>
+<div id="app">
+    <h2>
+        mustache
+    </h2>
+    <p>
+        {{price | numberFormat}}
+    </p>
+    <h2>
+        v-bind
+    </h2>
+    <input type="text" name="" v-bind:value="price | numberFormat">
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script src="./lesson.js"></script>
